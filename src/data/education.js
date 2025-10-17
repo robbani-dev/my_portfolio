@@ -4,6 +4,6 @@ export const education = [
     institute: "Magura Polytechnic Institute, Bangladesh",
     duration: "2016 - 2021",
     description:
-      "",
+      "" ,
   }
 ];
