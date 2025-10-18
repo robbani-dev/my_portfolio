@@ -5,7 +5,7 @@ import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
     return (
-        <section className="min-h-[80vh] flex flex-col md:flex-row items-center justify-center gap-10 px-6 md:px-16 bg-base-100">
+        <section id="home" className="py-20 flex flex-col md:flex-row items-center justify-center gap-10 px-6 md:px-16 bg-base-100">
             <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
