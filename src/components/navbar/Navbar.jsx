@@ -62,7 +62,7 @@ const Navbar = () => {
                 <li key={id}>
                     <button
                         onClick={() => handleClick(id)}
-                        className={`transition-all duration-300 ${activeSection === id ? "text-blue-500" : "text-gray-600"
+                        className={`transition-all duration-300 ${activeSection === id ? "text-blue-500" : ""
                             } hover:text-blue-400`}
                     >
                         {label}

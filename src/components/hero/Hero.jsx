@@ -18,7 +18,7 @@ export default function Hero() {
                 <h2 className="text-2xl md:text-3xl font-semibold text-secondary mb-4">
                     React Front-End Developer
                 </h2>
-                <p className="text-base md:text-lg text-gray-500 max-w-xl">
+                <p className="text-base md:text-lg max-w-xl">
                     I build fast, responsive, and user-friendly web applications using
                     modern technologies like React, Next.js, and Tailwind CSS. My goal is
                     to turn ideas into reality on the web.
@@ -32,7 +32,7 @@ export default function Hero() {
                         View Projects
                     </Link>
                     <Link
-                        href="https://drive.google.com/file/d/1_2GSC5rTKyRyyl1xKZPNU6cI1dnB56Cp/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1FB5Jg0wGt9lXdbSDzVNDanY83BtNeKPO/view?usp=sharing"
                         target="_blank"
                         className="btn btn-outline rounded-full px-6"
                     >
@@ -42,21 +42,21 @@ export default function Hero() {
 
                 <div className="flex justify-center md:justify-start mt-8 gap-5 text-2xl">
                     <Link
-                        href="https://github.com/grashik99"
+                        href="https://github.com/robbani-dev"
                         target="_blank"
                         className="hover:text-primary transition"
                     >
                         <FaGithub />
                     </Link>
                     <Link
-                        href="https://www.linkedin.com/in/golamrobbani55/"
+                        href="https://www.linkedin.com/in/robbani-dev/"
                         target="_blank"
                         className="hover:text-primary transition"
                     >
                         <FaLinkedin />
                     </Link>
                     <Link
-                        href="https://web.facebook.com/golamrobbani.dev"
+                        href="https://web.facebook.com/robbani.dev.info"
                         target="_blank"
                         className="hover:text-primary transition"
                     >

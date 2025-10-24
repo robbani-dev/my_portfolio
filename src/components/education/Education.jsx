@@ -31,9 +31,9 @@ export default function Education() {
             <h3 className="text-2xl font-semibold text-accent mb-2">
               {edu.degree}
             </h3>
-            <p className="text-gray-600 font-medium">{edu.institute}</p>
-            <p className="text-gray-500 mb-3">{edu.duration}</p>
-            <p className="text-gray-700">{edu.description}</p>
+            <p className=" font-medium">{edu.institute}</p>
+            <p className=" mb-3">{edu.duration}</p>
+            <p>{edu.description}</p>
           </motion.div>
         ))}
       </div>

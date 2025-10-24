@@ -48,14 +48,14 @@ export default function About() {
             Hi, I'm Golam Robbani
           </h3>
 
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed">
             My programming journey started with curiosity, wanting to
             understand how websites worked behind the scenes. What began as a
             hobby soon turned into a passion for crafting elegant, responsive,
             and efficient web applications.
           </p>
 
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed">
             I love building modern web experiences with <b>React</b> and{" "}
             <b>Next.js</b>. I enjoy solving real-world problems and seeing my
             code come to life on the screen. My focus is on writing clean,
@@ -63,14 +63,14 @@ export default function About() {
             an impact.
           </p>
 
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed">
             When I'm not coding, you'll find me exploring new tech tools,
             watching football, or capturing moments through photography. I
             also enjoy sketching — it helps me stay creative and detail-oriented
             in my design work.
           </p>
 
-          <p className="text-gray-700 italic">
+          <p className="italic">
             “Every line of code is a step toward creating something meaningful.”
           </p>
         </motion.div>

@@ -24,7 +24,7 @@ export default function ProjectDetails({ params }) {
         />
       </div>
 
-      <div className="space-y-5 text-gray-700">
+      <div className="space-y-5">
         <p className="text-lg">{project.description}</p>
 
         <div>

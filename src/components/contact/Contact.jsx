@@ -33,7 +33,7 @@ export default function Contact() {
           <h3 className="text-xl font-semibold mb-2">Email</h3>
           <a
             href="mailto:robbani.dev.info@gmail.com"
-            className="text-gray-600 hover:text-primary transition"
+            className= "hover:text-primary transition"
           >
             robbani.dev.info@gmail.com
           </a>
@@ -45,7 +45,7 @@ export default function Contact() {
           <h3 className="text-xl font-semibold mb-2">Phone</h3>
           <a
             href="tel:+8801788002949"
-            className="text-gray-600 hover:text-primary transition"
+            className="hover:text-primary transition"
           >
             +880 1788 002 949
           </a>
@@ -59,7 +59,7 @@ export default function Contact() {
             href="https://wa.me/+8801788002949"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-primary transition"
+            className="hover:text-primary transition"
           >
             +880 1788 002 949
           </a>

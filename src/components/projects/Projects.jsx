@@ -42,7 +42,7 @@ export default function Projects() {
               <h3 className="text-xl font-semibold mb-3 text-primary">
                 {project.name}
               </h3>
-              <p className="text-gray-600 mb-4 line-clamp-3">
+              <p className="mb-4 line-clamp-3">
                 {project.description}
               </p>
               <Link

@@ -12,7 +12,7 @@ export default function Footer() {
         {/* Left - Branding */}
         <div className="text-center md:text-left">
           <h2 className="text-xl font-semibold text-primary">Golam Robbani</h2>
-          <p className="text-gray-600 text-sm">
+          <p className="text-sm">
             React Front-End Developer | Building modern web experiences
           </p>
         </div>
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         {/* Right - Copyright */}
-        <div className="text-gray-500 text-sm text-center md:text-right">
+        <div className="text-sm text-center md:text-right">
           © {year} Golam Robbani. All rights reserved.
         </div>
       </div>
