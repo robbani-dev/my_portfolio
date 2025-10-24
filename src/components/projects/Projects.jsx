@@ -8,14 +8,14 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 bg-base-200 px-6 md:px-20 flex flex-col items-center"
+      className="contain bg-base-200  flex flex-col items-center"
     >
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-4xl font-bold text-primary mb-12 text-center"
+        className="titles"
       >
         Featured Projects
       </motion.h2>

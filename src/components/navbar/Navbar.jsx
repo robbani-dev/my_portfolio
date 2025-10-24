@@ -73,7 +73,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="navbar bg-base-100 shadow-md z-50 px-6 md:px-16">
+        <div className="navbar bg-base-100 shadow-md z-50 md:px-[10vw]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -101,7 +101,7 @@ const Navbar = () => {
                 </div>
                 <a
                     href="/"
-                    className="btn btn-ghost normal-case text-xl md:text-2xl rounded-full font-bold text-primary hover:bg-white"
+                    className="btn btn-ghost border-black  normal-case text-xl md:text-2xl rounded-full font-bold text-primary hover:bg-white hover:border-white"
                 >
                     Golam Robbani
                 </a>

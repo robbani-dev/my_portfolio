@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-base-200 px-6 md:px-20 flex flex-col items-center"
+      className="bg-base-200 contain flex flex-col items-center"
     >
       {/* Title */}
       <motion.h2
@@ -14,14 +14,14 @@ export default function Contact() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-4xl font-bold text-primary mb-12 text-center"
+        className="titles"
       >
         Contact Me
       </motion.h2>
 
       {/* Contact Cards */}
       <motion.div
-        className="grid md:grid-cols-3 gap-8 w-full max-w-4xl"
+        className="grid md:grid-cols-3 gap-8 w-full"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}

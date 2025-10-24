@@ -6,19 +6,19 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="py-20 bg-base-100 px-6 md:px-20 flex flex-col items-center"
+      className="contain bg-base-100  flex flex-col items-center"
     >
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-4xl font-bold text-primary mb-12 text-center"
+        className="titles"
       >
         Educational Qualification
       </motion.h2>
 
-      <div className="space-y-8 w-full max-w-4xl">
+      <div className="space-y-8 w-full">
         {education.map((edu, i) => (
           <motion.div
             key={i}

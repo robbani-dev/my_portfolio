@@ -10,12 +10,12 @@ export default function ProjectDetails({ params }) {
   }
 
   return (
-    <div className="py-20 px-6 md:px-20 max-w-5xl mx-auto">
-      <h1 className="text-4xl font-bold text-primary mb-6">
+    <div className="contain">
+      <h1 className="titles">
         {project.name}
       </h1>
 
-      <div className="relative w-full h-72 mb-8 rounded-2xl overflow-hidden shadow-xl">
+      <div className="relative w-full min-h-[40vh]  md:min-h-[70vh] rounded-sm mb-8 md:rounded-2xl overflow-hidden shadow-xl">
         <Image
           src={project.image}
           alt={project.name}

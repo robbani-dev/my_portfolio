@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 bg-base-200 flex flex-col items-center justify-center px-6 md:px-20"
+      className="contain bg-base-200 flex flex-col items-center justify-center"
     >
       {/* Section Title */}
       <motion.h2
@@ -14,12 +14,12 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="text-4xl font-bold mb-12 text-primary text-center"
+        className="titles"
       >
         About Me
       </motion.h2>
 
-      <div className="flex flex-col md:flex-row items-center gap-10 max-w-5xl">
+      <div className="flex flex-col md:flex-row items-center gap-10">
         {/* Image */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
