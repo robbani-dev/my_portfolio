@@ -27,14 +27,14 @@ export default function Footer() {
             <FaGithub />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/golamrobbani55/"
+            href="https://www.linkedin.com/in/robbani-dev/"
             target="_blank"
             className="hover:text-primary transition"
           >
             <FaLinkedin />
           </Link>
           <Link
-            href="https://web.facebook.com/golamrobbani.dev"
+            href="https://web.facebook.com/robbani.dev.info"
             target="_blank"
             className="hover:text-primary transition"
           >
